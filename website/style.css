@@ -1,0 +1,56 @@
+h1{
+    margin-left: 5px;
+    font-weight: 800;
+}
+li{
+    list-style: none;
+    margin-left: 2rem;
+    padding-top: 8px;
+    font-size: 1.3rem;
+}
+nav{
+    display: flex;    
+    /*ye html aur baki teen ko*/
+    justify-content:space-around;
+    
+}
+ul{
+    display: flex;
+    /*justify-content:space-around;
+    justify-content: flex-end;*/
+    margin-right: 2rem;
+
+}
+img[src="images/image.jpg"]{
+    heigt:100vh;
+    width:100vw;
+}
+.skill{
+    display:flex;
+    
+}
+.skills>div{
+    text-align: center;
+    margin-left: 2rem;
+}
+.skills>div>p{
+    text-align: center;
+    margin-left: 2rem;
+    padding: 1rem;
+
+}
+.footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+
+}
+a:link{
+    color:brown;
+}
+a:hover{
+    color:aqua;
+}
